@@ -2973,3 +2973,19 @@ footer{
 .first_li li:first-child a:after {
     top:0px;
 }
+
+.conatct-info{
+    margin-top:0%
+}
+.mb-footer-4{
+    margin-bottom: 1rem !important;
+}
+
+.footer-social-icon li a {
+    color: #ffffff;
+}
+
+.footer-bar {
+    padding-top: 0px;
+    padding: 10px 0px 10px 0px;
+}

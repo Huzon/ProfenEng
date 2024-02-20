@@ -507,7 +507,7 @@ a:hover,a:active{
         border-color:#ec1c24
     }
     .menu_area-light.scrollHeader .navbar-nav>li.has-sub>a:hover{
-        color:#ec1c24
+        /* color:#ec1c24 */
     }
     .header-style2.scrollHeader .navbar-nav>li.has-sub>a:hover{
         color:#ec1c24

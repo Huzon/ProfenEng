@@ -3,11 +3,16 @@
 
 /*** Carousel Start ***/
 
-.carousel-item {
+/* .carousel-item {
     position: relative;
-    /* 16Feb'23 Huz: To make all images same height */
+    16Feb'23 Huz: To make all images same height
     height: 670px;
+} */
+
+.service_color{
+    color :#000 !important;
 }
+
 .carousel-item .img{
     width: 100%;
 }

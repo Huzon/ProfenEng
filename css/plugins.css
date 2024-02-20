@@ -34741,7 +34741,7 @@ header{
     transition-duration:0.5s
 }
 .navbar-header-custom{
-    padding:17px 0 15px 0
+    padding: 8px 0 8px 0
 }
 .navbar-default{
     transition:all 0.5s ease 0s;
@@ -35254,7 +35254,7 @@ header{
         border-color:transparent #fff #fff transparent
     }
     .menu_area-light .navbar>ul>li.has-sub>a:after{
-        border-color:transparent #fff #fff transparent
+        border-color:transparent #000 #000 transparent
     }
     .menu_area-light .navbar>ul>li.current>a:after{
         border-color:transparent #229f72 #229f72 transparent

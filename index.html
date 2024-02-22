@@ -42,6 +42,22 @@
       <!-- Template Stylesheet -->
       <link href="css/style.css" rel="stylesheet">
 <style>
+.service_color{
+    color :#000 !important;
+}
+
+.h5, h5 {
+    font-size: 1.10rem !important; 
+}
+.p-1-9 {
+    padding: 1.9rem;
+    z-index: 1;
+}
+.carousel-indicators li{
+    list-style-type: none;
+
+}
+
 .butn-footer{
 color: #ec1c24 !important;
 background-color: #fff;
@@ -62,31 +78,18 @@ color: rgb(112, 16, 16) !important;
     color: white;
 }
 
-.service_color{
-    color :#000 !important;
-}
-
-
-
 
 .menu_area-light .navbar-nav li a:active{
     color: white !important;
 } 
 
-.h5, h5 {
-    font-size: 1.10rem !important; 
-}
 .p-1-9 {
     padding: 1.9rem;
     z-index: 1;
 }
-.carousel-indicators li{
-    list-style-type: none;
-
+.h5, h5 {
+    font-size: 1.10rem !important; 
 }
-.menu_area-light .navbar-nav>li>a{
-        color:#000;
-    }
 </style>
 
 </head>
@@ -101,47 +104,27 @@ color: rgb(112, 16, 16) !important;
     ================================================== -->
     <div class="main-wrapper">
 
-        <!-- HEADER
+         <!-- HEADER
         ================================================== -->
         <header class="header-style1 menu_area-light">
 
             <div class="navbar-default border-bottom border-color-light-white">
-
-                <!-- start top search -->
-                <!-- <div class="top-search bg-secondary">
-                    <div class="container-fluid px-lg-1-6 px-xl-2-5 px-xxl-2-9">
-                        <form class="search-form" action="https://exterior.websitelayout.net/search.html" method="GET" accept-charset="utf-8">
-                            <div class="input-group">
-                                <span class="input-group-addon cursor-pointer">
-                                    <button class="search-form_submit fas fa-search text-white" type="submit"></button>
-                                </span>
-                                <input type="text" class="search-form_input form-control" name="s" autocomplete="off" placeholder="Type & hit enter...">
-                                <span class="input-group-addon close-search mt-1"><i class="fas fa-times"></i></span>
-                            </div>
-                        </form>
-                    </div>
-                </div> -->
-                <!-- end top search -->
-
                 <div class="container-fluid px-lg-1-6 px-xl-2-5 px-xxl-2-9">
                     <div class="row align-items-center">
                         <div class="col-12 col-lg-12">
                             <div class="menu_area alt-font">
                                 <nav class="navbar navbar-expand-lg navbar-light p-0">
                                     <div class="navbar-header navbar-header-custom">
-                                        <!-- start logo -->
-                                        <a href="index.html" class="navbar-brand"><img id="logo" src="img/logos/logo.png" alt="logo"></a>
-                                        <!-- end logo -->
+                                        <a href="index.html" class="navbar-brand"><img id="logo" src="img/logos/logo-inner.png" alt="logo"></a>
                                     </div>
 
                                     <div class="navbar-toggler"></div>
 
-                                    <!-- menu area -->
                                     <ul class="navbar-nav ms-auto" id="nav" style="display: none;">
                                         <li><a href="index.html">Home</a></li>
                                         <li><a href="aboutus.html">About Us</a></li>
                                         <li>
-                                            <a href="#!" class="service_color">Services</a>
+                                            <a href="#!" class="">Services</a>
                                             <ul>
                               
                                                 
@@ -155,125 +138,60 @@ color: rgb(112, 16, 16) !important;
                                               
                                             </ul>
                                         </li>
-                                        <!-- <li><a href="portfolio.html">Portfolio</a></li> -->
                                         <li><a href="contactus.html">Contact</a></li>
                                     </ul>
-                                    <!-- end menu area -->
 
-                                    <!-- start attribute navigation -->
                                     <div class="attr-nav align-items-xl-center ms-xl-auto main-font">
                                         <ul>
-                                            <!-- <li class="search"><a href="#!"><i class="fas fa-search"></i></a></li> -->
                                             <li class="d-none d-xl-inline-block"><a href="contactus.html#quote" class="butn md">Free Quote</a></li>
                                         </ul>
                                     </div>
-                                    <!-- end attribute navigation -->
                                 </nav>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </header>
+        </header> 
 
-        <!-- BANNER
+        <!-- PAGE TITLE
         ================================================== -->
-        <!-- Carousel Start -->
-        <div class="container-fluid px-0">
-            <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true" aria-label="First slide"></li>
-                    <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
-                    <li data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="Third slide"></li>
-                    <li data-bs-target="#carouselId" data-bs-slide-to="3" aria-label="Fourth slide"></li>
-                    <li data-bs-target="#carouselId" data-bs-slide-to="4" aria-label="Fifth slide"></li>
-                    <li data-bs-target="#carouselId" data-bs-slide-to="5" aria-label="Sixth slide"></li>
-                </ol>
-                <div class="carousel-inner" role="listbox">
-                    <div class="carousel-item active">
-                        <img src="img/accordion/cooling.jpg" class="img-fluid" alt="First slide">
-                        <div class="carousel-caption">
-                            <div class="container carousel-content">
-                                <h6 class="text-secondary h4 animated fadeInUp mb-3">PROSHEILD Adiabatic Precooling System </h6>
-                                <!-- <h5 class="text-white display-1 mb-4 animated fadeInRight">PROFEN PROShield: Adiabatic Pre-Cooling for Enhanced Efficiency and Savings.</h5> -->
-                                <p class="mb-4 text-white fs-5 animated fadeInDown"></p>
-                                <a href="cooling.html" class="me-2 "><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary  carousel-content-btn1 animated fadeInLeft butn md">Read More</button></a>
-                                <!-- <a href="" class="ms-2 "><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary  carousel-content-btn2 animated fadeInRight butn md">Contact Us</button></a> -->
+        <section class="top-position1 py-0">
+            <div class="container-fluid px-0">
+                <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true" aria-label="First slide"></li>
+                        <!-- <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
+                        <li data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="Third slide"></li>
+                        <li data-bs-target="#carouselId" data-bs-slide-to="3" aria-label="Fourth slide"></li>
+                        <li data-bs-target="#carouselId" data-bs-slide-to="4" aria-label="Fifth slide"></li>
+                        <li data-bs-target="#carouselId" data-bs-slide-to="5" aria-label="Sixth slide"></li> -->
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <img src="img/accordion/cooling.jpg" class="img-fluid" alt="First slide">
+                            <div class="carousel-caption">
+                                <div class="container carousel-content">
+                                    <h6 class="text-secondary h4 animated fadeInUp mb-3">PROSHEILD Adiabatic Precooling System </h6>
+                                    <!-- <h5 class="text-white display-1 mb-4 animated fadeInRight">PROFEN PROShield: Adiabatic Pre-Cooling for Enhanced Efficiency and Savings.</h5> -->
+                                    <p class="mb-4 text-white fs-5 animated fadeInDown"></p>
+                                    <a href="cooling.html" class="me-2 "><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary  carousel-content-btn1 animated fadeInLeft butn md">Read More</button></a>
+                                    <!-- <a href="" class="ms-2 "><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary  carousel-content-btn2 animated fadeInRight butn md">Contact Us</button></a> -->
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item ">
-                        <img src="img/service/fabri_head_car.jpg" class="img-fluid" alt="First slide">
-                        <div class="carousel-caption">
-                            <div class="container carousel-content">
-                                <h6 class="text-secondary h4 animated fadeInUp mb-3">Metal Construction & Fabrications</h6>
-                                <!-- <h5 class="text-white display-1 mb-4 animated fadeInRight">PROFEN PROShield: Adiabatic Pre-Cooling for Enhanced Efficiency and Savings.</h5> -->
-                                <p class="mb-4 text-white fs-5 animated fadeInDown"></p>
-                                <a href="construction.html" class="me-2 "><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary  carousel-content-btn1 animated fadeInLeft butn md">Read More</button></a>
-                                <!-- <a href="" class="ms-2 "><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary  carousel-content-btn2 animated fadeInRight butn md">Contact Us</button></a> -->
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item ">
-                        <img src="img/service/build_head_car.jpg" class="img-fluid" alt="First slide">
-                        <div class="carousel-caption">
-                            <div class="container carousel-content">
-                                <h6 class="text-secondary h4 animated fadeInUp mb-3">Building Contracting Works</h6>
-                                <!-- <h5 class="text-white display-1 mb-4 animated fadeInRight">PROFEN PROShield: Adiabatic Pre-Cooling for Enhanced Efficiency and Savings.</h5> -->
-                                <p class="mb-4 text-white fs-5 animated fadeInDown"></p>
-                                <a href="building.html" class="me-2 "><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary  carousel-content-btn1 animated fadeInLeft butn md">Read More</button></a>
-                                <!-- <a href="" class="ms-2 "><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary  carousel-content-btn2 animated fadeInRight butn md">Contact Us</button></a> -->
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item ">
-                        <img src="img/service/landscaping_head_car.jpg" class="img-fluid" alt="First slide">
-                        <div class="carousel-caption">
-                            <div class="container carousel-content">
-                                <h6 class="text-secondary h4 animated fadeInUp mb-3">Landscaping & Fancing Works</h6>
-                                <!-- <h5 class="text-white display-1 mb-4 animated fadeInRight">PROFEN PROShield: Adiabatic Pre-Cooling for Enhanced Efficiency and Savings.</h5> -->
-                                <p class="mb-4 text-white fs-5 animated fadeInDown"></p>
-                                <a href="landscaping.html" class="me-2 "><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary  carousel-content-btn1 animated fadeInLeft butn md">Read More</button></a>
-                                <!-- <a href="" class="ms-2 "><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary  carousel-content-btn2 animated fadeInRight butn md">Contact Us</button></a> -->
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item ">
-                        <img src="img/service/interior_head_car.jpg" class="img-fluid" alt="First slide">
-                        <div class="carousel-caption">
-                            <div class="container carousel-content">
-                                <h6 class="text-secondary h4 animated fadeInUp mb-3">Interior / Fit-Our Works</h6>
-                                <!-- <h5 class="text-white display-1 mb-4 animated fadeInRight">PROFEN PROShield: Adiabatic Pre-Cooling for Enhanced Efficiency and Savings.</h5> -->
-                                <p class="mb-4 text-white fs-5 animated fadeInDown"></p>
-                                <a href="interior.html" class="me-2 "><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary  carousel-content-btn1 animated fadeInLeft butn md">Read More</button></a>
-                                <!-- <a href="" class="ms-2 "><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary  carousel-content-btn2 animated fadeInRight butn md">Contact Us</button></a> -->
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item ">
-                        <img src="img/service/electro_head_car.jpg" class="img-fluid" alt="First slide">
-                        <div class="carousel-caption">
-                            <div class="container carousel-content">
-                                <h6 class="text-secondary h4 animated fadeInUp mb-3">Electromechanical Works</h6>
-                                <!-- <h5 class="text-white display-1 mb-4 animated fadeInRight">PROFEN PROShield: Adiabatic Pre-Cooling for Enhanced Efficiency and Savings.</h5> -->
-                                <p class="mb-4 text-white fs-5 animated fadeInDown"></p>
-                                <a href="electro.html" class="me-2 "><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary  carousel-content-btn1 animated fadeInLeft butn md">Read More</button></a>
-                                <!-- <a href="" class="ms-2 "><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary  carousel-content-btn2 animated fadeInRight butn md">Contact Us</button></a> -->
-                            </div>
-                        </div>
-                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
             </div>
-        </div>
-        <!-- Carousel End -->
+        </section>
 
 
         <!-- ABOUTUS

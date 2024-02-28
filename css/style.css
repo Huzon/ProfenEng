@@ -205,3 +205,9 @@ font-size: 18px !important;
 }
 /*** Carousel End ***/
 
+/* Huzefa 22Feb'24 */
+.hover-img, .main-img{
+    width: 225px;
+    height: 75px;
+    object-fit: cover;
+}
